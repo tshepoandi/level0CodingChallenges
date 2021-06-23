@@ -1,6 +1,6 @@
 function minutesToHours()
 {
-  var yourMinutes = prompt("enter your minutes)
+  var yourMinutes = prompt("enter your minutes")
   var minutesExact = yourMinutes % 60
   var hours = yourMinutes / 60
   var hoursExact = Math.floor(hours)

@@ -15,6 +15,7 @@ for (i = 0; i < string.length ; i++)
     if (countforA == 1) 
     {
     array.push(string.charAt(i))
+    array.push(",")
     }
    
   }
@@ -26,6 +27,7 @@ for (i = 0; i < string.length ; i++)
     if (countforE == 1) 
     {
     array.push(string.charAt(i))
+    array.push(",")
     }
     
   }
@@ -36,6 +38,7 @@ for (i = 0; i < string.length ; i++)
     if (countforI == 1) 
     {
     array.push(string.charAt(i))
+    array.push(",")
     }
     
   }
@@ -46,6 +49,7 @@ for (i = 0; i < string.length ; i++)
     if (countforO == 1) 
     {
     array.push(string.charAt(i))
+    array.push(",")
     }
     
   }
@@ -56,6 +60,7 @@ for (i = 0; i < string.length ; i++)
     if (countforU == 1) 
     {
     array.push(string.charAt(i))
+    array.push(",")
     }
   }
 }

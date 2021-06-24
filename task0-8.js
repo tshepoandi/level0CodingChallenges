@@ -1,6 +1,6 @@
 function minutesToHours()
 {
-  var yourMinutes = prompt("enter your minutes")
+  var yourMinutes = prompt('Please enter minutes')
   var minutesExact = yourMinutes % 60
   var hours = yourMinutes / 60
   var hoursExact = Math.floor(hours)
@@ -8,10 +8,10 @@ function minutesToHours()
   
   if (hoursExact > 1) 
   {
-  console.log(hoursExact + "hours " +minutesExact + "minutes")
+  console.log(hoursExact + "hours , " +minutesExact + "minutes")
   } else if (hours = 1) 
   {
-    console.log(hoursExact + "hour " +minutesExact + "minutes")
+    console.log(hoursExact + "hour , " +minutesExact + "minutes")
   } 
   
 

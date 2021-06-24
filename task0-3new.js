@@ -1,4 +1,5 @@
-function Hello(string){
+function Hello(){
+var string = 'Tshepo'
 
 	console.log("hello" + string + "!")
 }

@@ -1,8 +1,5 @@
-function triangleArea() {
+function triangleArea(sideA,SideB,sideC) {
 
-var sideA = prompt("enter digit for side A")
-var sideB = prompt("enter digit for side B")
-var sideC = prompt("enter digit for side C")
 
 var perimeter = parseInt(sideA) + parseInt(sideB) + parseInt(sideC)
 

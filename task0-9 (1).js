@@ -66,8 +66,7 @@ for (i = 0; i < string.length ; i++)
 }
 
 array.pop(",")  
-console.log(array.join(" "))
-
+console.log(array.join(" ".toLowerCase()))
 }
 
 returnVowels('Umuzi testing vowels');

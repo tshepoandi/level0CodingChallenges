@@ -1,8 +1,5 @@
-function commonChar()
+function commonChar(string1,string2)
 {
-
-  var string1 = prompt('whats your first string')
-  var string2 = prompt('whats your other string')
   var array = []
     
   for (i = 0; i < string1.length; i++)
@@ -80,5 +77,4 @@ if (string1.charAt(i) == string2.charAt(8))
   console.log(word)
   
 } 
-  commonChar();
-
+  commonChar('house','computers')

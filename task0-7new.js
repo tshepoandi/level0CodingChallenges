@@ -2,8 +2,7 @@ function celciusToFarenheits(celcius) {
 
 	farenheitsStepOne = 9 / 5
 	totalFarenheits = farenheitsStepOne * parseFloat(celcius) + 32
-	console.log(totalFarenheits + " Farenheits") 
-}
+	return totalFarenheits + " farenheits" }
 
 celciusToFarenheits(100);
 
@@ -13,8 +12,7 @@ function farenheitsToCelcius(farenheits) {
 	var celciusCalculationStepTwo = 5 / 9 
 	var totalCelcius = parseFloat(celciusCalculation) * celciusCalculationStepTwo
 
-	console.log(totalCelcius + " celcius")
-
+	return totalCelcius + " celcius"
 }
 
 farenheitsToCelcius(100);

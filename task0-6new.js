@@ -1,7 +1,5 @@
-function highestNumber(){
-  var num1 = prompt('whats your first digit')
-  var num2 = prompt('whats your second digit')
-  var num3 = prompt('whats your third digit')
+function highestNumber(num1,num2,num3)
+{
   var equalNumber = 0
   
   if (num1 > num2 && num1 > num3) {

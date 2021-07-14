@@ -1,5 +1,5 @@
 function Hello(){
-var string = 'Tshepo '
+var string = ' Tshepo'
 	console.log("hello" + string + "!")
 }
 

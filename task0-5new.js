@@ -1,9 +1,9 @@
-function triangleArea(sideA,SideB,sideC) {
+function triangleArea(sideA,sideB,sideC) {
 
 
 var perimeter = parseInt(sideA) + parseInt(sideB) + parseInt(sideC)
 
-var semiperimeter = perimeter / 2 
+var semiperimeter = perimeter / 2
 
 
 var semi1 = parseInt(sideA) - semiperimeter
@@ -14,9 +14,9 @@ var multiplySemiSides = semi1 * semi2 * semi3
 
 var area = multiplySemiSides * semiperimeter
 var absolute = Math.abs(area);
-var squaredAbsolute = Math.sqrt(absolute)
+var squaredAbsolute = Math.sqrt(parseInt(absolute))
 
-console.log(squaredAbsolute)
+return squaredAbsolute
 }
 
-triangleArea();
+triangleArea(2,2,2);

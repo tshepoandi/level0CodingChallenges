@@ -17,6 +17,7 @@ var absolute = Math.abs(area);
 var squaredAbsolute = Math.sqrt(parseInt(absolute))
 
 return squaredAbsolute
+  console.log(squaredAbsolute) //I'm really confused ,I'm sorry if this isn't how the value should be returned
 }
-
 triangleArea(2,2,2);
+

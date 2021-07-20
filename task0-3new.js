@@ -1,6 +1,6 @@
-function Hello(){
-var string = ' Tshepo'
-	console.log("hello" + string + "!")
+function Hello(string){
+
+	console.log("Hello " + string + "!")
 }
 
-Hello();
+Hello("Tshepo");

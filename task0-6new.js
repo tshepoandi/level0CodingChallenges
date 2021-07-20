@@ -33,4 +33,4 @@ return "some numbers were equal which were " + equalNumber
   }
 }
 
-highestNumber(2,1,4);
+console.log(highestNumber(2,1,4));

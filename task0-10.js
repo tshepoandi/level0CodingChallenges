@@ -1,71 +1,22 @@
-function commonChar(string1,string2)
-{
-var array = []
+function duplicates(arr1,arr2){
+    var redundant = 0
+    var newArr = []
 
-for (i = 0; i < string1.length; i++)
-
-
-{
-  if (string1.charAt(i) == string2.charAt(0))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-
-
-  if (string1.charAt(i) == string2.charAt(1))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-
-
-  if (string1.charAt(i) == string2.charAt(2))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-
-
-  if (string1.charAt(i) == string2.charAt(3))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-
-  if (string1.charAt(i) == string2.charAt(4))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-  if (string1.charAt(i) == string2.charAt(5))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-
-
-  if (string1.charAt(i) == string2.charAt(6))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-
-
-  if (string1.charAt(i) == string2.charAt(7))
-  array.push(string1.charAt(i)+ ", ")
-  {
-  }
-
-if (string1.charAt(i) == string2.charAt(8))
-  {
-    array.push(string1.charAt(i)+ ", ")
-  }
-  if (string1.charAt(i) == string2.charAt(9))
-  {
-    array.push(string1.charAt(i) + ", ")
-  }
-  if (string1.charAt(i) == string2.charAt(10))
-  {
-    array.push(string1.charAt(i) + ", ")
-  }
-
-  }
-var word = array.join(' ')
-
-console.log("Common characters; " + word);
-}
-commonChar('house','computers')
+    if (arr1< arr2){
+        var arrInuse = arr1
+    }
+    else if (arr1 > arr2){
+        var arrInuse = arr2
+    }
+    for (var i=0;i<arrInuse.length;i++){
+        
+        if (arr2.includes(arr1[i])){
+            if(newArr.includes(arr1[i])){
+                redundant++
+            }else{ 
+            newArr.push(arr1[i])
+            }
+        }
+    }
+    console.log("Common Characters: " +  newArr.join(","))
+}duplicates("housssse","computersss")

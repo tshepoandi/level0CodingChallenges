@@ -5,7 +5,7 @@ function minutesToHours(yourMinutes)
   var hours = yourMinutes / 60
   var hoursExact = Math.floor(hours)
   
-  if (minutesExact > 1) {
+  if (minutesExact > 1 || minutesExact == 0 ) {
     var minutesPlural = " minutes"
   }
   else {
@@ -21,4 +21,4 @@ function minutesToHours(yourMinutes)
 
 
 }
-minutesToHours(71);
+minutesToHours(61);

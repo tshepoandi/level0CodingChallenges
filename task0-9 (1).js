@@ -66,7 +66,7 @@ if (string.charAt(i) == "u" || string.charAt(i) == "U")
 }
 
 array.pop(",")
-console.log("Vowels; " + array.join("").toLowerCase())
+console.log("Vowels: " + array.join("").toLowerCase())
 }
 
-returnVowels('Umuzi testing vowels');
+returnVowels('Umuzi iii ');

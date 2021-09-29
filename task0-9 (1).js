@@ -1,12 +1,11 @@
-/** @format */
 
 function returnVowels(string) {
-	countforA = 0;
-	countforE = 0;
-	countforI = 0;
-	countforO = 0;
-	countforU = 0;
-	var array = [''];
+	let countforA = 0;
+	let countforE = 0;
+	let countforI = 0;
+	let countforO = 0;
+	let countforU = 0;
+	let array = [''];
 
 	for (i = 0; i < string.length; i++) {
 		if (string.charAt(i) == 'a' || string.charAt(i) == 'A') {
@@ -55,4 +54,5 @@ function returnVowels(string) {
 }
 
 returnVowels('Umuzi iii ');
+
 

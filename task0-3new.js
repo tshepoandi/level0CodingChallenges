@@ -1,6 +1,6 @@
-function Hello(string){
+function hello(string){
 
 	console.log("Hello " + string + "!")
 }
 
-Hello("Tshepo");
+hello("Tshepo");

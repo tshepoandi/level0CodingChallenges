@@ -21,5 +21,5 @@ function highestNumber(num1, num2, num3) {
 	}
 }
 
-console.log(highestNumber(2, 1, 4));
+highestNumber(2, 1, 4);
 

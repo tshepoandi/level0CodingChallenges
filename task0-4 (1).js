@@ -1,6 +1,5 @@
 function evenOrOdd(integer) {
-	let userNumber = parseInt(integer);
-	if (userNumber % 2 === 0) {
+	if (integer % 2 == 0) {
 		console.log('even');
 	} else {
 		console.log('odd');

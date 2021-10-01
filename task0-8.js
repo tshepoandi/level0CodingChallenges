@@ -4,14 +4,18 @@ function minutesToHours(yourMinutes) {
 	let hoursExact = Math.floor(hours);
 	let minutesPlural = '';
 	if (minutesExact > 1 || minutesExact == 0) {
-		minutesPlural = ' minutes';
+		minutesPlural = 'minutes';
 	} else {
-		minutesPlural = ' minute';
+		minutesPlural = 'minute';
 	}
-	if (hoursExact > 1 || hoursExact == 0) {
-		console.log(hoursExact + 'hours, ' + minutesExact + minutesPlural);
-	} else if ((hours = 1)) {
-		console.log(hoursExact + 'hour, ' + minutesExact + minutesPlural);
+	if (hoursExact > 1 && hoursExact != 0) {
+		console.log(`${hoursExact} hours, ${minutesExact} ${minutesPlural}`);
+	} else if (hoursExact == 1 && hoursExact != 0) {
+		console.log(`${hoursExact} hour, ${minutesExact} ${minutesPlural}`);
+	} else if (hoursExact == 0) {
+		console.log(`${minutesExact} ${minutesPlural}`);
 	}
 }
-minutesToHours(644);
+minutesToHours(22);
+minutesToHours(71);
+minutesToHours(133);

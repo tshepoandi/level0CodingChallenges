@@ -3,14 +3,12 @@ function getVowels(string) {
 	arrayOfOutput = [];
 	for (let i = 0; i < string.length; i++) {
 		if (arrayOfVowels.includes(string.charAt(i))) {
-			if (arrayOfOutput.includes(string.charAt(i))) {
-			} else {
+			if (arrayOfOutput.includes(string.charAt(i)) == false) {
 				arrayOfOutput.push(string.charAt(i));
 			}
 		}
 	}
-	return `Vowels: ${arrayOfOutput.join(', ')}`;
+	console.log(`Vowels: ${arrayOfOutput.join(', ')}`);
 }
-console.log(getVowels('Umuzi i i i u u '));
-
+getVowels('Umuzi i i i u u ');
 

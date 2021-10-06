@@ -1,6 +1,6 @@
 function getVowels(string) {
-	arrayOfVowels = ['a', 'e', 'i', 'o', 'u'];
-	arrayOfOutput = [];
+	let arrayOfVowels = ['a', 'e', 'i', 'o', 'u'];
+	let arrayOfOutput = [];
 	for (let i = 0; i < string.length; i++) {
 		if (arrayOfVowels.includes(string.charAt(i))) {
 			if (arrayOfOutput.includes(string.charAt(i)) == false) {

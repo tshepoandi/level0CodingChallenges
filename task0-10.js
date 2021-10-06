@@ -1,8 +1,10 @@
 function duplicates(stringOne, stringTwo) {
 	let emptyArray = [];
-	stringOne.split('').forEach((i) => {
-		if (stringTwo.split('').includes(i)) {
-			if (emptyArray.includes(i) == false) {
+	let lowerCaseStringOne = stringOne.toLowerCase();
+	let lowerCaseStringTwo = stringTwo.toLowerCase();
+	lowerCaseStringOne.split('').forEach((i) => {
+		if (lowerCaseStringTwo.split('').includes(i)) {
+			if (emptyArray.includes(i) === false) {
 				emptyArray.push(i);
 			}
 		}

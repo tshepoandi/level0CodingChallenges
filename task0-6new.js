@@ -5,6 +5,6 @@ function highestNumber() {
 			standByNumber = arguments[i];
 		}
 	}
-	console.log(standByNumber);
+	return standByNumber;
 }
 highestNumber(-2, -1, -3, -4);
